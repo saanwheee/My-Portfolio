@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body, h1, h2, h3, h4, h5, h6 {
+      font-family: "Raleway", sans-serif;
+    }
+    body {
+      background-color: bisque;
+    }
+    nav.w3-sidebar {
+      background-color: #b271cd;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #410b38;
+    }
+    th {
+      background-color: #cb65e2;
+      color: #333;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    tr:hover {
+      background-color: #ddd;
+    }
+    
+  </style>
+</head>
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+<!--sidebar-->
+<nav class="w3-sidebar w3-collapse w3-animate-left" style="z-index:3;width:300px; background-color:#b271cd;" id="mySidebar">
+  <div class="w3-container">
+    
+    <img src="photo .jpg" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>STUDENT PORTFOLIO</b></h4>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-bisque"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a>
+    <a href="#education" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-graduation-cap fa-fw w3-margin-right"></i>EDUCATION</a>
+    <a href="#skills" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-cogs fa-fw w3-margin-right"></i>SKILLS</a>
+    <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-tasks fa-fw w3-margin-right"></i>PROJECTS</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+</nav>
+
+<!--overlay -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!--main page-->
+<div class="w3-main" style="margin-left:300px">
+
+  <header id="about">
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+      <h1><b>Saanvi Kulkarni</b></h1>
+      <h3><p>Computer Science Major</p></h3>
+      <p>As a B.Tech degree holder, I possess a robust academic foundation and a fervent passion for engineering. My proficiency extends across essential engineering concepts and cutting-edge technologies, which I have honed through practical experience gained during internships and various projects.
+
+        My educational journey has equipped me with a deep understanding of core engineering principles, providing a solid framework for problem-solving and analytical thinking. I have consistently demonstrated a commitment to academic excellence, showcasing my dedication to mastering the intricacies of engineering disciplines.
+        
+        Throughout my academic tenure, I actively sought opportunities to apply theoretical knowledge in practical settings. Engaging in internships and hands-on projects has allowed me to seamlessly bridge the gap between theory and real-world application. This practical experience has not only enriched my skill set but has also fostered an intuitive understanding of the dynamic and evolving nature of engineering challenges.
+        
+        Now, as I embark on the next phase of my career, I am eager to channel my enthusiasm and technical acumen into an entry-level engineering position. I am keen on contributing to innovative projects, leveraging my acquired knowledge and problem-solving skills to make meaningful contributions to the field. With a commitment to continuous learning and a passion for staying abreast of emerging technologies, I am poised to bring a fresh perspective and a proactive approach to any engineering team. I am confident that my combination of academic excellence and practical experience positions me as a valuable asset ready to make a positive impact in the world of engineering.</p>
+    </div>
+        <p>
+            In the dynamic realm of sports, my journey in table tennis has been a testament to dedication and passion, marked by significant achievements. Representing my state at the table tennis level stands as a pivotal accomplishment in my sporting career. The sheer thrill of donning the state colors, battling it out on the table, and contributing to the team's success has been an unparalleled experience. The state-level representation not only honed my skills but also instilled a sense of responsibility and teamwork.
+
+            Beyond the realm of sports, I have garnered recognition in the field of music, where my talents have been acknowledged with prestigious awards. This dual proficiency showcases a harmonious balance between the agility required in table tennis and the rhythmic finesse of music. It reflects a holistic approach to personal growth and a commitment to diverse passions.
+
+            Moreover, my artistic endeavors have found a platform at the Chitrakala Parishad, where my drawings have been displayed, adding a creative dimension to my achievements. This intersection of sports, music, and art underscores a versatile and multifaceted individual, committed to excellence across varied domains. Through these accomplishments, I aspire to inspire others to pursue their passions fervently and embrace the enriching diversity life has to offer.
+    </p>
+  </header>
+
+  <!--about-->
+  <div class="w3-container w3-padding-large" id="education">
+    <h4><b>Education</b></h4>
+  <table border="5">
+    <tr>
+      <th>Education</th>
+      <th>Institution</th>
+      <th>Graduation</th>
+    </tr>
+    <tr>
+      <td>Btech (Hons)</td>
+      <td>RV University</td>
+      <td>Expected: 2027</td>
+    </tr>
+    <tr>
+      <td>12th Grade</td>
+      <td>Sri Kumaran Children's Home, Banglore</td>
+      <td>2023</td>
+    </tr>
+    <tr>
+      <td>10th Grade</td>
+      <td>Sri Kumaran Children's Home, Banglore</td>
+      <td>2021</td>
+    </tr>
+  </table>
+    <hr>
+  </div>
+  <img src="edu.jpg" alt="Pic 1" >
+  <!--skills-->
+<div class="w3-container w3-padding-large" id="skills">
+    <h4><b>Skills</b></h4>
+    </div>
+
+<div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    
+
+    <ul class="w3-ul">
+        <li>
+            <h5>Programming Languages</h5>
+            <p>Medium level profieciency in C, Python, Shell. I also know simple dbms-MySQL</p>
+            </li>
+
+      <li>
+        <h5>Web Design</h5>
+        <p>Proficient in HTML, CSS, and JavaScript. Experience in creating responsive and visually appealing web layouts.</p>
+      </li>
+      
+        <li>
+            <h5>Project Management</h5>
+            <p>Expert at planning, organizing, and executing projects effectively.</p>
+      </li>
+      
+
+      
+    </ul>
+    
+    <hr>
+</div>
+
+  <!--projects-->
+<div class="w3-container w3-padding-large" id="projects">
+    <h4><b>Projects</b></h4>
+    <p>Miniproject for IWD course assessment where in i made an airbnb booking website</p>
+    <div class="w3-container w3-white">
+      <p><b>Description:</b> The website allowed users to pick the type of terrain and then decide on a specific location.The user could then book an airbnb and enjoy the comforts!</p>
+    </div>
+    <p>Made a replica of traffic signal</p>
+    <div class="w3-container w3-white">
+      <p><b>Description:</b> Used breadboards,leds,IC,resistors and capacitors to replicate a traffic signal. The lights changed at an interval of 30 seconds</p>
+    </div>
+    <hr>
+  </div>
+
+  <!--contact-->
+  <div class="w3-container w3-padding-large w3-grey" id="contact">
+    <h4><b>Contact Information</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>saanvivk18@gmail.com</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Bangalore, India</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p>+918762040416</p>
+      </div>
+
+    </div>
+    <hr class="w3-opacity">
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+    </form>
+  </div>
+
+  <!--footer-->
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+    <div class="w3-row-padding">
+      <div class="w3-half">
+        <h3>Social Media</h3>
+        <p>Connect with me:</p>
+        <a href="https://in.linkedin.com/"  target="_blank" rel="noopener noreferrer" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/"  target="_blank" rel="noopener noreferrer" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-github"></i></a>
+        <a href="https://www.instagram.com/"  target="_blank" rel="noopener noreferrer" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-instagram"></i></a>
+
+      </div>
+    </div>
+  </footer>
+</div>
+
+<script>
+
+  function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+  }
+
+  function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+  }
+</script>
+
+</body>
+</html>
